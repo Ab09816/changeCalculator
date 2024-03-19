@@ -1,0 +1,61 @@
+body {
+    background: url('source(1).jpg');
+    background-size: cover;
+    position: fixed;
+}
+
+h1 {
+    color: transparent;
+}
+.inputs{
+    position: relative;
+    top: 110px;
+    left: 555px;
+}
+
+.output {
+    display: flex;
+    margin-top: -10px;
+    margin-right: 50px;
+    margin-left: 25px;
+    color:white;
+}
+.output-group1, .output-group2 {
+    flex:1 0 auto;
+    & p {
+        margin: 0;
+        
+    }
+
+}
+.inline-block {
+    display: inline-block;
+}
+
+
+#amount-due {
+    background-color: black;
+    position: relative;
+    top: -3.5px;
+    right: -3.5px;
+    color: white;
+}
+
+#amount-received {
+    background-color: black;
+    position: relative;
+    top: -3.5px;
+    left: -5.5px;
+    color: white;
+}
+
+#calculate-change {
+    background-color: black;
+    position: relative;
+    bottom: 26px;
+   left: 285px;
+    color: white;
+    width: 29%;
+    height: 22.5px;
+}
+
